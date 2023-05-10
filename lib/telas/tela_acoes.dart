@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:prova_pratica/componetes/botao.dart';
 import 'package:prova_pratica/componetes/container_variaveis.dart';
 import 'package:prova_pratica/componetes/texto.dart';

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Texto extends StatefulWidget {
-  const Texto({super.key, this.conteudo, this.cor =Colors.black, this.tamanho = 15});
+  const Texto(
+      {super.key, this.conteudo, this.cor = Colors.black, this.tamanho = 15});
 
   final conteudo;
   final cor;
