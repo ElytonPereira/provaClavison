@@ -18,6 +18,7 @@ class _TextoState extends State<Texto> {
     return Text(
       widget.conteudo,
       style: TextStyle(
+        fontWeight: FontWeight.bold,
         color: widget.cor,
         fontSize: widget.tamanho,
       ),

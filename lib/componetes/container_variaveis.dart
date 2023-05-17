@@ -24,9 +24,11 @@ class _containerVariaveisState extends State<containerVariaveis> {
         ),
         child: Padding(
           padding: const EdgeInsets.all(8.0),
-          child: Texto(
-            conteudo: widget.conteudo,
-            cor: Colors.white,
+          child: Center(
+            child: Texto(
+              conteudo: widget.conteudo,
+              cor: Colors.white,
+            ),
           ),
         ),
       ),
