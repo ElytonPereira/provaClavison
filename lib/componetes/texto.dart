@@ -2,11 +2,16 @@ import 'package:flutter/material.dart';
 
 class Texto extends StatefulWidget {
   const Texto(
-      {super.key, this.conteudo, this.cor = Colors.black, this.tamanho = 15});
+      {super.key,
+      this.conteudo,
+      this.cor = Colors.black,
+      this.tamanho = 15,
+      this.negrito = FontWeight.w100});
 
   final conteudo;
   final cor;
   final tamanho;
+  final negrito;
 
   @override
   State<Texto> createState() => _TextoState();
@@ -18,7 +23,7 @@ class _TextoState extends State<Texto> {
     return Text(
       widget.conteudo,
       style: TextStyle(
-        fontWeight: FontWeight.bold,
+        fontWeight: widget.negrito,
         color: widget.cor,
         fontSize: widget.tamanho,
       ),
